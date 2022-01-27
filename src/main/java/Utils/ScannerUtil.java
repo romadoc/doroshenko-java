@@ -3,13 +3,13 @@ package Utils;
 import java.util.Scanner;
 
 public final class ScannerUtil {
-    private ScannerUtil(){}
+    private ScannerUtil() {}
 
-    public static int intIn(String s){
+    public static int intIn(String s) {
         getString(s);
         int x = 0;
         Scanner scanner = new Scanner(System.in);
-        while (!scanner.hasNextDouble()){
+        while (!scanner.hasNextDouble()) {
             System.out.println();
             getString(s);
             scanner.next();
