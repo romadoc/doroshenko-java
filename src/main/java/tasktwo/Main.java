@@ -1,6 +1,6 @@
 package tasktwo;
 
-import Utils.ScannerUtil;
+import utils.ScannerUtil;
 
 public class Main {
     private static final String INVITATION = "enter any human name";

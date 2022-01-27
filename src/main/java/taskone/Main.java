@@ -1,6 +1,6 @@
 package taskone;
 
-import Utils.ScannerUtil;
+import utils.ScannerUtil;
 
 public class Main {
     private static final String INVITATION = "Type any number (integer)";

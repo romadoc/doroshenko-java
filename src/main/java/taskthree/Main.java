@@ -1,6 +1,6 @@
 package taskthree;
 
-import Utils.ScannerUtil;
+import utils.ScannerUtil;
 
 public class Main {
     public static void main(String[] args) {
