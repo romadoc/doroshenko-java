@@ -16,7 +16,7 @@ public class ThirdTaskTest {
         int[] intArray = Arrays.stream(stringArray).mapToInt(Integer::parseInt).toArray();
         ArrayChecker arrayChecker = new ArrayChecker();
         arrayChecker.listChecker(intArray);
-        Assertions.assertEquals(Arrays.toString(getStandardList().get(counter)), arrayChecker.getRESULT_LIST().toString());
+        Assertions.assertEquals(Arrays.toString(getStandardList().get(counter)), arrayChecker.getResultList().toString());
         counter++;
     }
 

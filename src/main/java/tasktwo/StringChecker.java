@@ -1,16 +1,16 @@
 package tasktwo;
 
 public class StringChecker {
-    private final String RESPONSE_STRING = "Привет, ";
-    private final String PATTERN = "Вячеслав";
-    private final String WARNING = "Нет такого имени";
+    private final String responseString = "Привет, ";
+    private final String pattern = "Вячеслав";
+    private final String warning = "Нет такого имени";
 
     public boolean responseToString(String name) {
-        if (name.equals(PATTERN)) {
-            System.out.println(RESPONSE_STRING + PATTERN);
+        if (name.equals(pattern)) {
+            System.out.println(responseString + pattern);
             return true;
         } else {
-            System.out.println(WARNING);
+            System.out.println(warning);
         }
         return false;
     }
