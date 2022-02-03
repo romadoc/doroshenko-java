@@ -6,7 +6,7 @@ public class StringChecker {
     private final String warning = "Нет такого имени";
 
     public boolean responseToString(String name) {
-        if (name.equals(pattern)) {
+        if (name.equalsIgnoreCase(pattern)) {
             System.out.println(responseString + pattern);
             return true;
         } else {

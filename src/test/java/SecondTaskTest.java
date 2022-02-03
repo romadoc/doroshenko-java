@@ -10,7 +10,7 @@ public class SecondTaskTest {
 
     public void isCheckerInSecondTaskOK(String name) {
         StringChecker stringChecker = new StringChecker();
-        if (name.equals(nameConst)) {
+        if (name.equalsIgnoreCase(nameConst)) {
             Assertions.assertTrue(stringChecker.responseToString(name), "method should return true");
         } else {
             Assertions.assertFalse(stringChecker.responseToString(name), "method should return false");
